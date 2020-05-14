@@ -1,5 +1,5 @@
-##Variables
-
+Variables
+========
 From the authors of the original experiment we can found the description for each variable in our final dataset:
 
 "The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
@@ -50,7 +50,8 @@ Activity: In the experiment, 6 diferents activities was measured for each subjec
 5 STANDING
 6 LAYING
 
-##Transformations
+Transformations
+========
 
 First, the data, in .txt extension, were read into R. The total data becomes in 2 diferent archives: train and test. When test and train were merged, total dataset is completed for the 66 variables, for the Activity column and Subject Column.
 
